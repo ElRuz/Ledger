@@ -12,7 +12,7 @@ const MODEL = "claude-sonnet-4-6";
 const KEY = "ledger:v2";
 // AI calls point here. This has no key and will fail closed (CORS) until a backend
 // proxy is wired up — every caller already falls back to manual entry when it fails.
-const API_URL = "https://api.anthropic.com/v1/messages";
+const API_URL = "ledger-proxy.elbekruz.workers.dev";
 
 const DEFAULT_CATEGORIES = [
   "Housing", "Utilities", "Subscriptions", "Insurance",
